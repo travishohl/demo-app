@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CountLabel.h"
 
 @interface ViewController : UIViewController
+
+@property (nonatomic, strong) NSNumber *count;
+@property (nonatomic, strong) CountLabel *countLabel;
+
+- (void)toggleBackgroundColor;
 
 @end
