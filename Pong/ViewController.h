@@ -13,6 +13,8 @@
 
 @property (nonatomic, strong) NSNumber *count;
 @property (nonatomic, strong) CountLabel *countLabel;
+@property (nonatomic, strong) UIColor *blueColor;
+@property (nonatomic, strong) UIColor *redColor;
 
 - (void)toggleBackgroundColor;
 

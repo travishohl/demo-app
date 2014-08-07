@@ -16,12 +16,25 @@
 
 @synthesize count=_count;
 @synthesize countLabel=_countLabel;
+@synthesize blueColor=_blueColor;
+@synthesize redColor=_redColor;
 
 - (ViewController *)init
 {
     if (self = [super init])
     {
-        self.view.backgroundColor = [UIColor blueColor];
+        // Create colors
+        self.blueColor = [UIColor colorWithRed:9.0/255.0
+                                         green:113.0/255.0
+                                          blue:178.0/255.0
+                                         alpha:1.0f];
+        self.redColor = [UIColor colorWithRed:178.0/255.0
+                                        green:18.0/255.0
+                                         blue:18.0/255.0
+                                        alpha:1.0f];
+        
+        // Set background color and initialize counter
+        self.view.backgroundColor = self.blueColor;
         self.count = @0;
         
         // Create countLabel and add it as subview
@@ -41,13 +54,13 @@
 - (void)toggleBackgroundColor
 {
     // Toggle the background color
-    if (self.view.backgroundColor == [UIColor blueColor])
+    if ([self.view.backgroundColor isEqual:self.blueColor])
     {
-        self.view.backgroundColor = [UIColor redColor];
+        self.view.backgroundColor = self.redColor;
     }
     else
     {
-        self.view.backgroundColor = [UIColor blueColor];
+        self.view.backgroundColor = self.blueColor;
     }
     
     // Remember how many times we've toggled

@@ -16,7 +16,10 @@
     if (self) {
         [self updateCount:value];
         self.textAlignment = NSTextAlignmentCenter;
-        self.textColor = [UIColor whiteColor];
+        self.textColor = [UIColor colorWithRed:1.0f green:1.0f blue:1.0f alpha:1.0f];
+        self.shadowColor = [UIColor colorWithRed:0.2f green:0.2f blue:0.2f alpha:1.0f];
+        CGSize shadowSize = { 2.5f, 2.5f };
+        self.shadowOffset = shadowSize;
         [self setFont:[UIFont fontWithName:@"Helvetica"
                                       size:(CGFloat)96]];
     }
