@@ -53,32 +53,57 @@
 
 - (void)toggleBackgroundColor
 {
-    // Toggle the background color
-    if ([self.view.backgroundColor isEqual:self.blueColor])
-    {
-        self.view.backgroundColor = self.redColor;
+    @autoreleasepool {
+        // Toggle the background color
+        if ([self.view.backgroundColor isEqual:self.blueColor])
+        {
+            void (^anim) (void) = ^{
+                self.view.backgroundColor = self.redColor;
+            };
+            [UIView animateWithDuration:1 animations:anim];
+        }
+        else
+        {
+            void (^anim) (void) = ^{
+                self.view.backgroundColor = self.blueColor;
+            };
+            [UIView animateWithDuration:1 animations:anim];
+        }
+        
+        // Remember how many times we've toggled
+        int incrementedCountAsPrimitive = [self.count intValue] + 1;
+        NSNumber *result = [NSNumber numberWithInt:incrementedCountAsPrimitive];
+        self.count = result;
+        [self.countLabel updateCount:self.count];
+        
+        // Display alert view, somtimes
+        if (incrementedCountAsPrimitive % 10 == 0)
+        {
+            NSString *alertMessage = [NSString stringWithFormat:@"You've tapped %@ times!", self.count];
+            UIAlertView *av = [[UIAlertView alloc] initWithTitle:@"Congratulations!"
+                                                         message:alertMessage
+                                                        delegate:self
+                                               cancelButtonTitle:@"Great..."
+                                               otherButtonTitles:@"Reset", nil];
+            [av show];
+        }
     }
-    else
+}
+
+- (void)alertView:(UIAlertView *) alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex == 1)
     {
-        self.view.backgroundColor = self.blueColor;
+        [self resetCounter];
     }
-    
-    // Remember how many times we've toggled
-    int incrementedCountAsPrimitive = [self.count intValue] + 1;
-    NSNumber *result = [NSNumber numberWithInt:incrementedCountAsPrimitive];
-    self.count = result;
-    [self.countLabel updateCount:self.count];
-    
-    // Display alert view, somtimes
-    if (incrementedCountAsPrimitive % 10 == 0)
+}
+
+- (void)resetCounter
+{
+    if (![self.count isEqual: @0])
     {
-        NSString *alertMessage = [NSString stringWithFormat:@"You've tapped %@ times!", self.count];
-        UIAlertView *av = [[UIAlertView alloc] initWithTitle:@"Congratulations!"
-                                                     message:alertMessage
-                                                    delegate:self
-                                           cancelButtonTitle:@"Great..."
-                                           otherButtonTitles:nil, nil];
-        [av show];
+        self.count = @0;
+        [self.countLabel updateCount:self.count];
     }
 }
 

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 #import "CountLabel.h"
 
 @interface ViewController : UIViewController
@@ -17,5 +18,6 @@
 @property (nonatomic, strong) UIColor *redColor;
 
 - (void)toggleBackgroundColor;
+- (void)resetCounter;
 
 @end

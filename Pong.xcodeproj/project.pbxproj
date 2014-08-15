@@ -21,6 +21,7 @@
 		1F112BC01989CA8700771748 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F112BBE1989CA8700771748 /* InfoPlist.strings */; };
 		1F112BC21989CA8700771748 /* PongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F112BC11989CA8700771748 /* PongTests.m */; };
 		1F156C781991B189007735A4 /* CountLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F156C771991B189007735A4 /* CountLabel.m */; };
+		1F3349CA199B8C6D00742DED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3349C9199B8C6D00742DED /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		1F112BC11989CA8700771748 /* PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTests.m; sourceTree = "<group>"; };
 		1F156C761991B189007735A4 /* CountLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountLabel.h; sourceTree = "<group>"; };
 		1F156C771991B189007735A4 /* CountLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountLabel.m; sourceTree = "<group>"; };
+		1F3349C9199B8C6D00742DED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3349CA199B8C6D00742DED /* QuartzCore.framework in Frameworks */,
 				1F112B991989CA8700771748 /* CoreGraphics.framework in Frameworks */,
 				1F112B9B1989CA8700771748 /* UIKit.framework in Frameworks */,
 				1F112B971989CA8700771748 /* Foundation.framework in Frameworks */,
@@ -102,6 +105,7 @@
 		1F112B951989CA8700771748 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F3349C9199B8C6D00742DED /* QuartzCore.framework */,
 				1F112B961989CA8700771748 /* Foundation.framework */,
 				1F112B981989CA8700771748 /* CoreGraphics.framework */,
 				1F112B9A1989CA8700771748 /* UIKit.framework */,
