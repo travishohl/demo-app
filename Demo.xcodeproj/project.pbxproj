@@ -35,22 +35,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F112B931989CA8700771748 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F112B931989CA8700771748 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F112B961989CA8700771748 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1F112B981989CA8700771748 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1F112B9A1989CA8700771748 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		1F112B9E1989CA8700771748 /* Pong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pong-Info.plist"; sourceTree = "<group>"; };
+		1F112B9E1989CA8700771748 /* Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Demo-Info.plist"; sourceTree = "<group>"; };
 		1F112BA01989CA8700771748 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F112BA21989CA8700771748 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1F112BA41989CA8700771748 /* Pong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pong-Prefix.pch"; sourceTree = "<group>"; };
+		1F112BA41989CA8700771748 /* Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Prefix.pch"; sourceTree = "<group>"; };
 		1F112BA51989CA8700771748 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1F112BA61989CA8700771748 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1F112BAB1989CA8700771748 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1F112BAC1989CA8700771748 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1F112BAE1989CA8700771748 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1F112BB41989CA8700771748 /* PongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F112BB41989CA8700771748 /* DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F112BB51989CA8700771748 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		1F112BBD1989CA8700771748 /* PongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PongTests-Info.plist"; sourceTree = "<group>"; };
+		1F112BBD1989CA8700771748 /* DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoTests-Info.plist"; sourceTree = "<group>"; };
 		1F112BBF1989CA8700771748 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F112BC11989CA8700771748 /* PongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTests.m; sourceTree = "<group>"; };
 		1F156C761991B189007735A4 /* CountLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountLabel.h; sourceTree = "<group>"; };
@@ -86,8 +86,8 @@
 		1F112B8A1989CA8700771748 = {
 			isa = PBXGroup;
 			children = (
-				1F112B9C1989CA8700771748 /* Pong */,
-				1F112BBB1989CA8700771748 /* PongTests */,
+				1F112B9C1989CA8700771748 /* Demo */,
+				1F112BBB1989CA8700771748 /* DemoTests */,
 				1F112B951989CA8700771748 /* Frameworks */,
 				1F112B941989CA8700771748 /* Products */,
 			);
@@ -96,8 +96,8 @@
 		1F112B941989CA8700771748 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F112B931989CA8700771748 /* Pong.app */,
-				1F112BB41989CA8700771748 /* PongTests.xctest */,
+				1F112B931989CA8700771748 /* Demo.app */,
+				1F112BB41989CA8700771748 /* DemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,7 +114,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1F112B9C1989CA8700771748 /* Pong */ = {
+		1F112B9C1989CA8700771748 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
 				1F112BA51989CA8700771748 /* AppDelegate.h */,
@@ -126,33 +126,35 @@
 				1F112BAE1989CA8700771748 /* Images.xcassets */,
 				1F112B9D1989CA8700771748 /* Supporting Files */,
 			);
+			name = Demo;
 			path = Pong;
 			sourceTree = "<group>";
 		};
 		1F112B9D1989CA8700771748 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F112B9E1989CA8700771748 /* Pong-Info.plist */,
+				1F112B9E1989CA8700771748 /* Demo-Info.plist */,
 				1F112B9F1989CA8700771748 /* InfoPlist.strings */,
 				1F112BA21989CA8700771748 /* main.m */,
-				1F112BA41989CA8700771748 /* Pong-Prefix.pch */,
+				1F112BA41989CA8700771748 /* Demo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1F112BBB1989CA8700771748 /* PongTests */ = {
+		1F112BBB1989CA8700771748 /* DemoTests */ = {
 			isa = PBXGroup;
 			children = (
 				1F112BC11989CA8700771748 /* PongTests.m */,
 				1F112BBC1989CA8700771748 /* Supporting Files */,
 			);
+			name = DemoTests;
 			path = PongTests;
 			sourceTree = "<group>";
 		};
 		1F112BBC1989CA8700771748 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F112BBD1989CA8700771748 /* PongTests-Info.plist */,
+				1F112BBD1989CA8700771748 /* DemoTests-Info.plist */,
 				1F112BBE1989CA8700771748 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -161,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F112B921989CA8700771748 /* Pong */ = {
+		1F112B921989CA8700771748 /* Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F112BC51989CA8700771748 /* Build configuration list for PBXNativeTarget "Pong" */;
+			buildConfigurationList = 1F112BC51989CA8700771748 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
 				1F112B8F1989CA8700771748 /* Sources */,
 				1F112B901989CA8700771748 /* Frameworks */,
@@ -173,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = Pong;
+			name = Demo;
 			productName = Pong;
-			productReference = 1F112B931989CA8700771748 /* Pong.app */;
+			productReference = 1F112B931989CA8700771748 /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1F112BB31989CA8700771748 /* PongTests */ = {
+		1F112BB31989CA8700771748 /* DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F112BC81989CA8700771748 /* Build configuration list for PBXNativeTarget "PongTests" */;
+			buildConfigurationList = 1F112BC81989CA8700771748 /* Build configuration list for PBXNativeTarget "DemoTests" */;
 			buildPhases = (
 				1F112BB01989CA8700771748 /* Sources */,
 				1F112BB11989CA8700771748 /* Frameworks */,
@@ -191,9 +193,9 @@
 			dependencies = (
 				1F112BBA1989CA8700771748 /* PBXTargetDependency */,
 			);
-			name = PongTests;
+			name = DemoTests;
 			productName = PongTests;
-			productReference = 1F112BB41989CA8700771748 /* PongTests.xctest */;
+			productReference = 1F112BB41989CA8700771748 /* DemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1F112B8E1989CA8700771748 /* Build configuration list for PBXProject "Pong" */;
+			buildConfigurationList = 1F112B8E1989CA8700771748 /* Build configuration list for PBXProject "Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,8 +225,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F112B921989CA8700771748 /* Pong */,
-				1F112BB31989CA8700771748 /* PongTests */,
+				1F112B921989CA8700771748 /* Demo */,
+				1F112BB31989CA8700771748 /* DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -274,7 +276,7 @@
 /* Begin PBXTargetDependency section */
 		1F112BBA1989CA8700771748 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1F112B921989CA8700771748 /* Pong */;
+			target = 1F112B921989CA8700771748 /* Demo */;
 			targetProxy = 1F112BB91989CA8700771748 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -375,9 +377,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
-				INFOPLIST_FILE = "Pong/Pong-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Pong/Demo-Prefix.pch";
+				INFOPLIST_FILE = "Pong/Demo-Info.plist";
+				PRODUCT_NAME = Demo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -388,9 +390,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
-				INFOPLIST_FILE = "Pong/Pong-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Pong/Demo-Prefix.pch";
+				INFOPLIST_FILE = "Pong/Demo-Info.plist";
+				PRODUCT_NAME = Demo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -410,8 +412,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "PongTests/PongTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PongTests/DemoTests-Info.plist";
+				PRODUCT_NAME = DemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -428,8 +430,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pong/Pong-Prefix.pch";
-				INFOPLIST_FILE = "PongTests/PongTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "PongTests/DemoTests-Info.plist";
+				PRODUCT_NAME = DemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -438,7 +440,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F112B8E1989CA8700771748 /* Build configuration list for PBXProject "Pong" */ = {
+		1F112B8E1989CA8700771748 /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F112BC31989CA8700771748 /* Debug */,
@@ -447,7 +449,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F112BC51989CA8700771748 /* Build configuration list for PBXNativeTarget "Pong" */ = {
+		1F112BC51989CA8700771748 /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F112BC61989CA8700771748 /* Debug */,
@@ -456,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F112BC81989CA8700771748 /* Build configuration list for PBXNativeTarget "PongTests" */ = {
+		1F112BC81989CA8700771748 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F112BC91989CA8700771748 /* Debug */,

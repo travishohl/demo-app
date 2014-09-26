@@ -28,7 +28,7 @@
 
 - (void)updateCount:(NSNumber *)value
 {
-    self.text = [value stringValue];
+        self.text = [value stringValue];
 }
 
 /*

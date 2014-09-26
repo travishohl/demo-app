@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F112B921989CA8700771748"
-               BuildableName = "Pong.app"
-               BlueprintName = "Pong"
-               ReferencedContainer = "container:Pong.xcodeproj">
+               BuildableName = "Demo.app"
+               BlueprintName = "Demo"
+               ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F112BB31989CA8700771748"
-               BuildableName = "PongTests.xctest"
-               BlueprintName = "PongTests"
-               ReferencedContainer = "container:Pong.xcodeproj">
+               BuildableName = "DemoTests.xctest"
+               BlueprintName = "DemoTests"
+               ReferencedContainer = "container:Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F112B921989CA8700771748"
-            BuildableName = "Pong.app"
-            BlueprintName = "Pong"
-            ReferencedContainer = "container:Pong.xcodeproj">
+            BuildableName = "Demo.app"
+            BlueprintName = "Demo"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F112B921989CA8700771748"
-            BuildableName = "Pong.app"
-            BlueprintName = "Pong"
-            ReferencedContainer = "container:Pong.xcodeproj">
+            BuildableName = "Demo.app"
+            BlueprintName = "Demo"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F112B921989CA8700771748"
-            BuildableName = "Pong.app"
-            BlueprintName = "Pong"
-            ReferencedContainer = "container:Pong.xcodeproj">
+            BuildableName = "Demo.app"
+            BlueprintName = "Demo"
+            ReferencedContainer = "container:Demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

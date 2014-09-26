@@ -54,21 +54,21 @@
 - (void)toggleBackgroundColor
 {
     @autoreleasepool {
-        // Toggle the background color
-        if ([self.view.backgroundColor isEqual:self.blueColor])
-        {
-            void (^anim) (void) = ^{
+        
+        // Define animation block
+        void (^anim) (void) = ^{
+            // Toggle the background color
+            if ([self.view.backgroundColor isEqual:self.blueColor])
+            {
                 self.view.backgroundColor = self.redColor;
-            };
-            [UIView animateWithDuration:1 animations:anim];
-        }
-        else
-        {
-            void (^anim) (void) = ^{
+            }
+            else
+            {
                 self.view.backgroundColor = self.blueColor;
-            };
-            [UIView animateWithDuration:1 animations:anim];
-        }
+            }
+        };
+        [UIView animateWithDuration:0.3 animations:anim];
+
         
         // Remember how many times we've toggled
         int incrementedCountAsPrimitive = [self.count intValue] + 1;
