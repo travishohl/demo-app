@@ -126,8 +126,7 @@
 				1F112BAE1989CA8700771748 /* Images.xcassets */,
 				1F112B9D1989CA8700771748 /* Supporting Files */,
 			);
-			name = Demo;
-			path = Pong;
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		1F112B9D1989CA8700771748 /* Supporting Files */ = {
@@ -147,8 +146,7 @@
 				1F112BC11989CA8700771748 /* PongTests.m */,
 				1F112BBC1989CA8700771748 /* Supporting Files */,
 			);
-			name = DemoTests;
-			path = PongTests;
+			path = DemoTests;
 			sourceTree = "<group>";
 		};
 		1F112BBC1989CA8700771748 /* Supporting Files */ = {
@@ -377,8 +375,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pong/Demo-Prefix.pch";
-				INFOPLIST_FILE = "Pong/Demo-Info.plist";
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
 				PRODUCT_NAME = Demo;
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,8 +388,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Pong/Demo-Prefix.pch";
-				INFOPLIST_FILE = "Pong/Demo-Info.plist";
+				GCC_PREFIX_HEADER = "Demo/Demo-Prefix.pch";
+				INFOPLIST_FILE = "Demo/Demo-Info.plist";
 				PRODUCT_NAME = Demo;
 				WRAPPER_EXTENSION = app;
 			};
